@@ -48,25 +48,21 @@ public class Balok extends implemen {
 
     @Override
     public double getS() {
-        // TODO Auto-generated method stub
         return 0;
     }
 
     @Override
     public void setS(double s) {
-        // TODO Auto-generated method stub
 
     }
 
     @Override
     public void setAlasPrisma(double alas) {
-        // TODO Auto-generated method stub
 
     }
 
     @Override
     public double setkeliling(double keliling) {
-        // TODO Auto-generated method stub
         return 0;
     }
 

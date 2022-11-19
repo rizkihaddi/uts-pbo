@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             while (true) {
-                System.out.println("MENGHITUNG VOLUME BANGUN RUANG");
+                System.out.println("--------- MENGHITUNG VOLUME BANGUN RUANG ----------");
                 System.out.println("1. KERUCUT");
                 System.out.println("2. BALOK");
                 System.out.println("3. prisma");
@@ -51,15 +51,15 @@ public class Main {
                     System.out.println("\nLUAS ADALAH : " + b1.getLuas());
                     System.out.println("VOLUMENYA ADALAH : " + b1.getVolume());
                 } else if (pilih == 3) {
-                    System.out.print("luas volue prisma");
+                    System.out.print("Luas volue prisma");
 
-                    System.out.print("masukan tinggi :");
+                    System.out.print("Masukan tinggi :");
                     Double tinggip = input.nextDouble();
 
-                    System.out.print("masukan alas :");
+                    System.out.print("Masukan alas :");
                     double alasp = input.nextDouble();
 
-                    System.out.print("masukan keliling : ");
+                    System.out.print("Masukan keliling : ");
                     double kelilingp = input.nextDouble();
 
                     Prisma p1 = new Prisma();

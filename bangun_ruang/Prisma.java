@@ -1,4 +1,4 @@
-package sesi6.bangun_ruang;
+package bangun_ruang;
 
 public class Prisma extends implemen {
 
